@@ -12,5 +12,11 @@ namespace ConsoleApp1
         {
             return x * y;
         }
+
+        public ClassMult(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
     }
 }
